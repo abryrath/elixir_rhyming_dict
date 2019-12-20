@@ -1,0 +1,9 @@
+{application,rhyming,
+             [{applications,[kernel,stdlib,elixir,logger,postgrex,ecto_sql]},
+              {description,"rhyming"},
+              {modules,['Elixir.Rhyming','Elixir.Rhyming.Application',
+                        'Elixir.Rhyming.Repo','Elixir.Rhyming.Word',
+                        'Elixir.Rhyming.WordParser']},
+              {registered,[]},
+              {vsn,"0.1.0"},
+              {mod,{'Elixir.Rhyming.Application',[]}}]}.
